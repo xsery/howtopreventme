@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/healthy_care.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/Menu.unity
+    guid: dfbe0eb528a986245b6382442b47f415
+  - enabled: 1
+    path: Assets/Scene/Personagem.unity
+    guid: d58afe2eddb7360409343e7d39890c83
+  - enabled: 1
+    path: Assets/Scene/creditos.unity
+    guid: 6e3a786f19ca1354687c5b37eaf1e98f
+  - enabled: 1
+    path: Assets/Scene/Mapa.unity
+    guid: cbc991d2330f60647916d56a3cd810a4
+  - enabled: 1
+    path: Assets/Scene/Intro.unity
+    guid: a02ac596b300f79488b3dbff2323e53d
+  - enabled: 1
+    path: Assets/Scene/healthy_care.unity
+    guid: 70f21aa62c1a9ff4f99e20524748b2c0
+  - enabled: 1
+    path: Assets/Scene/Errou.unity
+    guid: b7a0d6ebdb9a5654b8ec3af1b1d80e9b
+  - enabled: 1
+    path: Assets/Scene/Acertou.unity
+    guid: 71c6b1589e370db4c99fa737dfb6ec4e

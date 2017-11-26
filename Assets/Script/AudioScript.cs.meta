@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b85629b7d8cabf34c8bb4b626500c120
+timeCreated: 1511664670
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - MusicClip: {fileID: 8300000, guid: cd31aab2ff7a92f4faf43d71849bf5e5, type: 3}
+  - MusicSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
