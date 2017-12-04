@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
 
     public int personagem;
     public int score;
+    public int convite;
 
     private static GameManager instance = null;
 
@@ -70,6 +71,61 @@ public class GameManager : MonoBehaviour {
         {
             personagem = 11;
         }
+    }
+
+    public void aceitarConvite()
+    {
+        convite = 1;
+    }
+
+    public void recusarConvite()
+    {
+        convite = 0;
+    }
+
+    public void ganhaUmPonto()
+    {
+        score = score + 1;
+    }
+
+    public int verificarConvite()
+    {
+        return convite;
+    }
+
+    public void ganhaCincoPonto()
+    {
+        score = score + 5;
+    }
+
+    public void diminuiDoisPonto()
+    {
+        if(score > 2)
+            score = score - 2;
+    }
+
+    public void diminuiUmPonto()
+    {
+        if (score > 1)
+            score = score - 1;
+    }
+
+    public void diminuiTresPonto()
+    {
+        if (score > 3)
+        {
+            score = score - 3;
+        }
+    }
+
+    public string getScoreText()
+    {
+        return score.ToString();
+    }
+
+    public int getPersonagem()
+    {
+        return personagem;
     }
 }
 

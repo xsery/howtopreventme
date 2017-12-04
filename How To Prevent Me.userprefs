@@ -8,8 +8,9 @@
       <File FileName="Assets\Script\scene_healthycare.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\teste\iniciar.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\teste\backiniciar.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\teste\gomap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\teste\gomap.cs" Line="17" Column="28" />
       <File FileName="Assets\Script\SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\teste\draganddrop.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

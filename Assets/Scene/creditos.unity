@@ -164,7 +164,7 @@ SpriteRenderer:
   m_Size: {x: 7.04, y: 5.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
 --- !u!4 &210364507
 Transform:
@@ -282,6 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148502829}
   - component: {fileID: 1148502828}
+  - component: {fileID: 1148502830}
   - component: {fileID: 1148502827}
   - component: {fileID: 1148502826}
   - component: {fileID: 1148502825}
@@ -362,3 +363,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1148502830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1148502824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74b1cf1c817048499383d14b88b54c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutTexture: {fileID: 2800000, guid: e94af241d7a43754fae36a8c1fe842d7, type: 3}
+  fadeSpeed: 0.2

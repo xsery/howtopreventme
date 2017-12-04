@@ -23,11 +23,12 @@ public class ButtonCasa : MonoBehaviour {
     }
 
     IEnumerator irAosComodos(){
+        GameManager.Instance.recusarConvite();
         if (comodo == 0)
         {
             float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
             yield return new WaitForSeconds(3f);
-            SceneManager.LoadScene("Scene/Sala");
+            SceneManager.LoadScene("Scene/Casa");
         }
         if (comodo == 1)
         {

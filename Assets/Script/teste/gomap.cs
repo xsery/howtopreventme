@@ -14,7 +14,7 @@ public class gomap : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown(0))
 		{
-			SceneManager.LoadScene(4);
+			SceneManager.LoadScene(3);
 		}
 
 	}

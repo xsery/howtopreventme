@@ -51,23 +51,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Script\AtualizarImagem.cs" />
+     <Compile Include="Assets\Script\AtualizarPontos.cs" />
      <Compile Include="Assets\Script\AudioScript.cs" />
      <Compile Include="Assets\Script\Button.cs" />
      <Compile Include="Assets\Script\ButtonCasa.cs" />
+     <Compile Include="Assets\Script\ButtonConvite.cs" />
+     <Compile Include="Assets\Script\ButtonHospital.cs" />
      <Compile Include="Assets\Script\ButtonInformacao.cs" />
      <Compile Include="Assets\Script\ButtonIniciar.cs" />
+     <Compile Include="Assets\Script\ButtonInterrogacao.cs" />
      <Compile Include="Assets\Script\ButtonMapa.cs" />
      <Compile Include="Assets\Script\ButtonPlay.cs" />
+     <Compile Include="Assets\Script\ButtonPopUp.cs" />
+     <Compile Include="Assets\Script\ButtonShopping.cs" />
+     <Compile Include="Assets\Script\ButtonTrocaFala.cs" />
+     <Compile Include="Assets\Script\ButtonTrocaFalaEscolaMasculina.cs" />
      <Compile Include="Assets\Script\Fading.cs" />
+     <Compile Include="Assets\Script\Farmacia.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
+     <Compile Include="Assets\Script\movetouch.cs" />
      <Compile Include="Assets\Script\MudançaDePersonagem.cs" />
+     <Compile Include="Assets\Script\OpcaoInformacao.cs" />
+     <Compile Include="Assets\Script\PegarCompras.cs" />
+     <Compile Include="Assets\Script\PegarTurma.cs" />
      <Compile Include="Assets\Script\PlaySound.cs" />
      <Compile Include="Assets\Script\scene_healthycare.cs" />
      <Compile Include="Assets\Script\SceneController.cs" />
+     <Compile Include="Assets\Script\Shopping.cs" />
      <Compile Include="Assets\Script\teste\backiniciar.cs" />
+     <Compile Include="Assets\Script\teste\draganddrop.cs" />
      <Compile Include="Assets\Script\teste\gomap.cs" />
      <Compile Include="Assets\Script\teste\iniciar.cs" />
      <Compile Include="Assets\Script\Toque.cs" />
+     <Compile Include="Assets\Script\VerificaBolsa.cs" />
+     <Compile Include="Assets\Script\VerificarCarteira.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

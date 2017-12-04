@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Toque : MonoBehaviour {
 
-    public Text textToque;
+    public GameObject somToque;
 
     // Use this for initialization
     void Start () {
-		
+        somToque.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -20,21 +20,26 @@ public class Toque : MonoBehaviour {
 
     void OnMouseEnter()
     {
-        StartCoroutine("vibrar");
+        if (GameManager.Instance.verificarConvite() == 0)
+        {
+            somToque.SetActive(true);
+        }
     }
 
+    void OnMouseExit()
+    {
+        if (GameManager.Instance.verificarConvite() == 0)
+        {
+            somToque.SetActive(false);
+        }
+    }
+    
     public void atende()
     {
-        StartCoroutine("atendeCelular");
-    }
-
-    IEnumerator vibrar()
-    {
-        textToque.text = "TRIMMMMMM!!!";
-        yield return new WaitForSeconds(10f);
-        textToque.text = "Atende o telefone!";
-        yield return new WaitForSeconds(10f);
-        textToque.text = "TRIMMMMMM!!!";
+        if (GameManager.Instance.verificarConvite() == 0)
+        {
+            StartCoroutine("atendeCelular");
+        }
     }
 
     IEnumerator atendeCelular()
