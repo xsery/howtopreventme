@@ -12,10 +12,19 @@ public class backiniciar : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown(0))
-		{
-			SceneManager.LoadScene(0);
-		}
+		
 
 	}
+
+    public void menu()
+    {
+        StartCoroutine("sceneMenu");
+    }
+
+    IEnumerator sceneMenu()
+    {
+        float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Scene/Menu");
+    }
 }

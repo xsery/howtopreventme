@@ -6,6 +6,17 @@ TagManager:
   tags:
   - Carteira
   - Bolsa
+  - Diafragma
+  - Camisinha
+  - InjecaoAnticoncepcional
+  - PilulaAnticoncepcional
+  - PilulaDiaSeguinte
+  - DIU
+  - CamisinhaFeminina
+  - Penis
+  - Vagina
+  - Braco
+  - Boca
   layers:
   - Default
   - TransparentFX

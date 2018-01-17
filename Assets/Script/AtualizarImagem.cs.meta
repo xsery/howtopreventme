@@ -1,10 +1,23 @@
 fileFormatVersion: 2
 guid: 4491c61328174ff4da1d678225f8bba1
-timeCreated: 1512025486
+timeCreated: 1512604331
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - personagem1: {fileID: 21300000, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem2: {fileID: 21300002, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem3: {fileID: 21300004, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem4: {fileID: 21300006, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem5: {fileID: 21300008, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem6: {fileID: 21300010, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem7: {fileID: 21300012, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem8: {fileID: 21300014, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem9: {fileID: 21300016, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem10: {fileID: 21300018, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem11: {fileID: 21300020, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem12: {fileID: 21300022, guid: db5a5db64c24b36439aef7d393811fae, type: 3}
+  - personagem: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

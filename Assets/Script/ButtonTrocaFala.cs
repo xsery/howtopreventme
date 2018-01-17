@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonTrocaFala : MonoBehaviour {
@@ -11,6 +12,8 @@ public class ButtonTrocaFala : MonoBehaviour {
     public Sprite sprite4;
     public GameObject consciencia;
     public GameObject btnPassa;
+    public GameObject objetos;
+    public GameObject celular;
     public Image personagem;
     public Text fala;
     public int contFala;
@@ -21,18 +24,29 @@ public class ButtonTrocaFala : MonoBehaviour {
         if (GameManager.Instance.verificarConvite() == 0)
         {
             consciencia.SetActive(false);
+            objetos.SetActive(false);
+            celular.SetActive(true);
         }
         if (GameManager.Instance.verificarConvite() == 1)
         {
             consciencia.SetActive(true);
+            objetos.SetActive(false);
+            celular.SetActive(false);
         }
 
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        
+    }
+
+    IEnumerator sceneMapa()
+    {
+        float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Scene/Mapa");
+    }
 
     public void trocaDeFala()
     {
@@ -56,6 +70,7 @@ public class ButtonTrocaFala : MonoBehaviour {
             fala.text = "Arraste cada item abaixo para a carteira ou\npara a bolsa ao lado!";
             personagem.sprite = sprite4;
             btnPassa.SetActive(false);
+            objetos.SetActive(true);
         }
         if (contFala >= 3)
         {

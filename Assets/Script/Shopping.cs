@@ -22,35 +22,34 @@ public class Shopping : MonoBehaviour {
         StartCoroutine("entrandoLoja");
     }
 
-    IEnumerator sceneMapa()
+    IEnumerator entrandoLoja()
     {
         float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
         yield return new WaitForSeconds(3f);
-        if (loja == 1)
-        {
+        if(loja == 1){
             SceneManager.LoadScene("Scene/LojaLotado");
         }
         else
         {
             if (loja == 2)
             {
-                SceneManager.LoadScene("Scene/Chapeu");
+                SceneManager.LoadScene("Scene/Chapeus");
             }
             else
             {
                 if (loja == 3)
                 {
-                    SceneManager.LoadScene("Scene/Livraria");
+                    SceneManager.LoadScene("Scene/Perfumaria");
                 }
                 else
                 {
                     if (loja == 4)
                     {
-                        SceneManager.LoadScene("Scene/Perfumaria");
+                        SceneManager.LoadScene("Scene/Musica");
                     }
                     else
                     {
-                        SceneManager.LoadScene("Scene/Musica");
+                        SceneManager.LoadScene("Scene/Livraria");
                     }
                 }
             }

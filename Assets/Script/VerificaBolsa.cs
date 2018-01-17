@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class VerificaBolsa : MonoBehaviour {
 
+    public ContagemDesafil cont;
     private Transform player;
 
     // Use this for initialization
@@ -21,9 +22,11 @@ public class VerificaBolsa : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D colisor)
     {
-        Debug.Log("Objeto encostou em " + colisor.gameObject.name);
         if (colisor.gameObject.tag == "Bolsa")
+
         {
+            cont.ganhaPonto();
+            GameManager.Instance.ganhaUmPonto();
             gameObject.SetActive(false);
         }
     }

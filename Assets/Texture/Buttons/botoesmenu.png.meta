@@ -1,11 +1,18 @@
 fileFormatVersion: 2
-guid: ccda7aa239b8f3b4c966d4f00d18b895
-timeCreated: 1511657689
+guid: 8a83f87011755b5489295e7ba3dc42f6
+timeCreated: 1511922591
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: botoesmenu_0
     21300002: botoesmenu_1
+    21300004: botoesmenu_2
+    21300006: botoesmenu_3
+    21300008: botoesmenu_4
+    21300010: botoesmenu_5
+    21300012: botoesmenu_6
+    21300014: botoesmenu_7
+    21300016: botoesmenu_8
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -112,8 +119,8 @@ TextureImporter:
       name: botoesmenu_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 128
+        x: 269
+        y: 469
         width: 249
         height: 67
       alignment: 0
@@ -126,10 +133,108 @@ TextureImporter:
       name: botoesmenu_1
       rect:
         serializedVersion: 2
-        x: 13
-        y: 0
-        width: 255
-        height: 91
+        x: 270
+        y: 346
+        width: 254
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 402
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 314
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 244
+        width: 249
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 226
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 124
+        width: 249
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 142
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: botoesmenu_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 28
+        width: 249
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

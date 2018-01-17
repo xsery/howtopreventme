@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class VerificarCarteira : MonoBehaviour {
 
+    public ContagemDesafil cont;
     private Transform player;
 
     // Use this for initialization
@@ -19,9 +20,10 @@ public class VerificarCarteira : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D colisor)
     {
-        Debug.Log("Objeto encostou em " + colisor.gameObject.name);
         if (colisor.gameObject.tag == "Carteira")
         {
+            cont.ganhaPonto();
+            GameManager.Instance.ganhaUmPonto();
             gameObject.SetActive(false);
         }
     }
