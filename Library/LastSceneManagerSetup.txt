@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/hospital.unity
+- path: Assets/Scene/FarmaciaArmario.unity
   isLoaded: 1
   isActive: 1
