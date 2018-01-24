@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 791
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 741
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 681, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 112955
+  controlID: 28797
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 112956
+  controlID: 28798
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 112957
+  controlID: 28799
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,10 +174,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 439
+    width: 225
     height: 469
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -197,12 +197,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 439
+    x: 225
     y: 0
-    width: 820
+    width: 1034
     height: 469
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -254,15 +254,15 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 741
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,9 +285,9 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 441
+    x: 227
     y: 19
-    width: 816
+    width: 1030
     height: 448
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -297,10 +297,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -383.1111
-    m_HBaseRangeMax: 383.1111
-    m_VBaseRangeMin: -215.5
-    m_VBaseRangeMax: 215.5
+    m_HBaseRangeMin: -624.8889
+    m_HBaseRangeMax: 624.8889
+    m_VBaseRangeMin: -351.5
+    m_VBaseRangeMax: 351.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -317,25 +317,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 816
-      height: 431
+      width: 1536
+      height: 703
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 408, y: 215.5}
+    m_Translation: {x: 768, y: 351.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -408
-      y: -215.5
-      width: 816
-      height: 431
+      x: -768
+      y: -351.5
+      width: 1536
+      height: 703
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 816, y: 448}
+  m_LastWindowPixelSize: {x: 1536, y: 720}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -363,13 +363,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 122
-    width: 437
+    width: 223
     height: 448
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: c4cae6ff38cbe6ff70cce6ff88cce6ff96cce6ffa8cce6ffb8cce6ffc4cce6ffd4cce6ffe0cce6ffeccce6fff8cce6ff06cde6ff14cde6ff22cde6ff2ecde6ff3acde6ff46cde6ff54cde6ff62cde6ff74cde6ff8ccde6ff98cde6ffa4cde6ffb0cde6ffbccde6ffc8cde6ffd4cde6ffe2cde6ffeecde6fffacde6ff06cee6ff12cee6ff20cee6ff2ccee6ff3acee6ff48cee6ff56cee6ff64cee6ff70cee6ff84cee6ff94cee6ffccd0e6ff5a2ae8ffacf9ebff604cecffe650ecffc448eeffb26eeeffb0a8efff7a72f5fffca4f5ff8e71f6fff22ffaff2cdbfaff8eb9fbffdad8feffcedaffffeaf4ffff8cfbffff000000007c3300008433000096330000bc330000c4330000d0330000da330000de330000863400008e34000096340000ae340000ca340000fa340000fe3400001c3500002e3500003835000040350000723500008e35000092350000ac350000d4350000f035000012360000263600004c3600005036000058360000b2360000b6360000ba360000ca360000d63600002e37000032370000423700004e37000076370000823700009e37000080a203008ea20300d0a20300dea20300eea2030034a3030078a303006ab0030078b00300bab00300c8b00300d6b00300e2b0030028b103006cb1030022c3030066c30300a8c30300d0c303005ac403003ec703006cc7030026c8030048c80300acc8030000c9030020c9030036c9030058c903005cc903007ac903008ec9030092c903002ed8030056d8030080d80300
+    scrollPos: {x: 0, y: 369}
+    m_SelectedIDs: ca600000
+    m_LastClickedID: 24778
+    m_ExpandedIDs: 4410fcff0402ffffa281ffff589fffff8ab0ffffa6fbffff0000000034320000203400002a340000883400005e370000e2370000e6370000f0370000f4370000063800000a3800003a3800007038000074380000ba380000ee600000f4600000586100005e61000084610000d0610000066200001c6200002c6200004e62000054620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +388,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - FarmaciaArmario
+  - PostoDeSaude2
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -414,19 +414,19 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 441
+    x: 227
     y: 122
-    width: 816
+    width: 1030
     height: 448
   m_SceneLighting: 1
-  lastFramingTime: 96675.31527055764
+  lastFramingTime: 5083.012680095846
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 237, y: 403.5, z: 0}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 237, y: 403.5, z: 0}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 31
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -453,9 +453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 901.57654
+    m_Target: 33.92477
     speed: 2
-    m_Value: 901.57654
+    m_Value: 33.92477
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -520,7 +520,7 @@ MonoBehaviour:
     width: 1257
     height: 251
   m_SearchFilter:
-    m_NameFilter: FarmaciaArmario
+    m_NameFilter: posto
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -531,19 +531,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Texture/Background
+    - Assets/Texture
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Texture/Background
+  - Assets/Texture
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\fcmau\Projects\How to prevent me\How To Prevent Me
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 48}
+    scrollPos: {x: 0, y: 31}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b027000086290000b6290000ba2c0000e82e0000ffffff7f
+    m_ExpandedIDs: 00000000ac27000082290000b2290000ba2c0000e82e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -571,7 +571,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b027000086290000b6290000ba2c0000e82e0000ffffff7f
+    m_ExpandedIDs: 00000000ac27000082290000b2290000ba2c0000e82e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,22 +598,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004c3c0000502800002626000074260000284400001c2c000032260000aa3000002c3900008c3000004c3900005e300000aa3d00003a400000024100007641000036400000fe4000004e41000012410000f64000004a41000012400000824100007e410000a0410000344200003c420000ea420000f24200002a4300003a43000032430000364300002e4300003e4300004247000058270000922700003a2600004a2f000010270000ee310000ea31000078290000344800002e5300001c29000052270000fe260000b42700002a690000562b0000ba280000b4280000b028000076620000e8660000802c0000747100005a3900006239000044010000842f0000962e0000aa2c0000142d0000442a0000002a0000e02a0000a6300000fa2c00004e300000000000002ccc0000942800002e2c00002a2b0000b82d0000da2d0000e0270000cc2b0000762800007a280000542b0000ec2d0000263000008c2c0000ce2b0000522b0000e42d0000442d0000082e000080300000823000000a2b00002c3000008a280000462e00002a3000009c300000462c0000202d0000ca2a00003e2b00001228000064290000aa280000c83000002428000012310000f22c0000be270000a82b00000a2d0000a0300000b02e0000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300004c3c0000502800002626000074260000284400001c2c000032260000aa3000002c3900008c3000004c3900005e300000aa3d00003a400000024100007641000036400000fe4000004e41000012410000f64000004a41000012400000824100007e410000a0410000344200003c420000ea420000f24200002a4300003a43000032430000364300002e4300003e4300004247000058270000922700003a2600004a2f000010270000ee310000ea31000078290000344800002e5300001c29000052270000fe260000b42700002a690000562b0000ba280000b4280000b028000076620000e8660000802c0000747100005a3900006239000044010000842f0000962e0000aa2c0000142d0000442a0000002a0000e02a0000a6300000fa2c00004e3000002ccc0000942800002e2c00002a2b0000b82d0000da2d0000e0270000cc2b0000762800007a280000542b0000ec2d0000263000008c2c0000ce2b0000522b0000e42d0000442d0000082e000080300000823000000a2b00002c3000008a280000462e00002a3000009c300000462c0000202d0000ca2a00003e2b00001228000064290000aa280000c83000002428000012310000f22c0000be270000a82b00000a2d0000b02e000000000000be290000662b00008c2a0000da270000a0300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: FarmaciaArmario
-      m_OriginalName: FarmaciaArmario
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11520
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -623,7 +623,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 26}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 302
 --- !u!114 &17
@@ -748,6 +748,8 @@ MonoBehaviour:
   m_RegisteredViewURLs:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/build
+  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
   m_RegisteredViewInstances:
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
