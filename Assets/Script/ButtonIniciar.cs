@@ -17,6 +17,6 @@ public class ButtonIniciar : MonoBehaviour {
     {
         float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Scene/Personagem");
+        SceneManager.LoadScene("Scene/Intro");
     }
 }

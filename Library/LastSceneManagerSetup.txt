@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/PostoDeSaude2.unity
+- path: Assets/Scene/Mapa.unity
   isLoaded: 1
   isActive: 1

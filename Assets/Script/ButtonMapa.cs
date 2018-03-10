@@ -14,6 +14,6 @@ public class ButtonMapa : MonoBehaviour {
     {
         float fadeTime = GameObject.Find("Main Camera").GetComponent<Fading>().BeginFade(1);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("Scene/Intro");
+        SceneManager.LoadScene("Scene/Mapa");
     }
 }

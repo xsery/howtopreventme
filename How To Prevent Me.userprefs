@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ButtonCasa.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ButtonIniciar.cs">
     <Files>
       <File FileName="Assets\Script\ButtonMapa.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\VerificarCarteira.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\ButtonCredits.cs" Line="1" Column="1" />
       <File FileName="How To Prevent Me.sln" Line="1" Column="1" />
       <File FileName="Assets\Script\teste\gomap.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\ButtonIniciar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ButtonIniciar.cs" Line="20" Column="44" />
       <File FileName="Assets\Script\ButtonSaudeMapa.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\OpcaoInformacao.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\VerificarRespostas.cs" Line="1" Column="1" />
